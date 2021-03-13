@@ -6,6 +6,26 @@ pragma solidity 0.7.6;
 interface IERC20 {
 
     /**
+     * @dev Returns the name of contract.
+     */
+    function name() external view returns (string memory);
+    
+    /**
+     * @dev Returns the symbol of contract.
+     */
+    function symbol() external view returns (string memory);
+    
+    /**
+     * @dev Returns the decimals of contract.
+     */
+    function decimals() external view returns (uint8);
+    
+    /**
+     * @dev Returns the amount of tokens in existence.
+     */
+    function totalSupply() external view returns (uint256);
+    
+    /**
      * @dev Returns the amount of tokens owned by `account`.
      */
     function balanceOf(address account) external view returns (uint256);
