@@ -1,2 +1,2 @@
 # Sol
-Solidity libraries and test open to the public for personal use as well as public use.
+Solidity libraries and tests open to the public for public use.
